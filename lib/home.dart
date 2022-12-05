@@ -1,6 +1,7 @@
 import "package:flutter/material.dart";
 import "./myCard.dart";
-import "route1.dart";
+import "./notes.dart";
+// import "route1.dart";
 
 class Home extends StatefulWidget {
   @override
@@ -50,7 +51,7 @@ class HomeState extends State<Home> {
                   });
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => const FirstRoute()),
+                    MaterialPageRoute(builder: (context) => const Notes()),
                   );
                 }))
             .toList(),
